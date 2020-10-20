@@ -73,10 +73,41 @@ button {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
+img.titi {
+    max-width: 500px;
+    height: auto;
+/*     margin-left: auto;
+    margin-right: auto;
+    bottom: 1%; */
+}
+
+
+@media(max-width: 576px){
+    img.titi{
+    width: 100px;
+    }
+}
+@media(max-width: 768px){
+    img.titi{
+     width: 100px;
+
+    }
+}
+@media(max-width: 992px){
+    img.titi{
+    width: 100px;
+    }
+}
+@media(max-width: 1200px){
+    img.titi{
+        top: 1%;
+     width: 130px;
+    }
+}
 p {
     margin: 0;
 }
@@ -462,7 +493,7 @@ section {
 
 .au-btn:hover {
     color: #ffff;
-    background: #b1075e;
+    background: #222831;
 }
 
 .au-btn--blue2 {
@@ -484,7 +515,7 @@ section {
 }
 
 .au-btn--blue {
-    background: #6f0039;
+    background: #00ADB5;
 }
 
 .au-btn--green {
@@ -836,12 +867,12 @@ section {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background: #6f0039;
+    background: #00ADB5;
     margin-left: -3px;
 }
 
 .au-btn--submit:hover {
-    background: #3868cd;
+    background: #222831;
 }
 
 .au-btn--submit > i {
@@ -1641,11 +1672,11 @@ section {
 }
 
 .navbar-sidebar .navbar__list li a:hover {
-    color: #6f0039;
+    color: #00ADB5;
 }
 
 .navbar-sidebar .navbar__list li.active > a {
-    color: #6f0039;
+    color: #00ADB5;
 }
 
 .has-sub {
